@@ -2859,3 +2859,15 @@ opacity: 0.8;
 
 
 
+.well-connect-section h2{
+  margin-top: 100px;
+  
+}
+.well-connect-section h4{
+  margin: 0px ;
+}
+@media(max-width: 768px){
+  .well-connect-section h2{
+    margin-top: 20px;
+  }
+}
