@@ -190,7 +190,7 @@
 		    smartSpeed:250,
 		    nav:true,
 		    navText:[],
-		    dots:false,
+		    dots:true,
 		    autoHeight: true,
 		    responsiveRefreshRate:0,
 		    responsive:{

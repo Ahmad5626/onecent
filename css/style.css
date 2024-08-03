@@ -1190,11 +1190,13 @@ a.brand:focus{
 .owl-prev:before{
   font-family:"Ionicons";
   content: "\f3d2";
+  display: none;
 }
 
 .owl-next:before{
   font-family:"Ionicons";
   content: "\f3d3";
+  display: none;
 }
 
 .owl-prev:hover,
