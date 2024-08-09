@@ -534,11 +534,11 @@ a.brand:focus{
   color: #000;
 }
 
-.brand img{
+.brand img {
   display: inline-block;
   vertical-align: top;
   margin-right: 0.65rem;
-  height: 4.356rem;
+  height: 3.0rem;
 }
 @media (max-width: 768px) {
   .brand img{
@@ -913,7 +913,7 @@ a.brand:focus{
 }
 
 .section{
-  padding-top: 5rem;
+  padding-top: 6.5rem;
 }
 
 .section-title{
@@ -1012,7 +1012,7 @@ a.brand:focus{
 
 @media (min-width: 1200px){
   .experience-box{
-    margin-top: 12.2rem;
+    margin-top: 5.2rem;
   }
 }
 
@@ -1035,10 +1035,12 @@ a.brand:focus{
 .experience-number{
   display: inline-block;
   vertical-align: middle;
-  font-size: 7.142rem;
+  font-size: 5.5rem;
   line-height: 1;
   font-weight: 600;
   color: #000;
+
+  padding-right: 25px;
 }
 
 .experience-info{
@@ -1089,7 +1091,7 @@ a.brand:focus{
 }
 
 .col-service h4{
-  margin-top: 3.3rem;
+  margin-top: 1.5rem;
 }
 
 .col-service p{
