@@ -540,7 +540,14 @@ a.brand:focus{
   margin-right: 0.65rem;
   height: 4.356rem;
 }
-
+@media (max-width: 768px) {
+  .brand img{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0.65rem;
+    height: 2.356rem;
+  }
+}
 .brand-info{
   display: inline-block;
 }
@@ -882,7 +889,7 @@ a.brand:focus{
 
 
 .wrapper{
-  padding-top:7rem;
+  /* padding-top:7rem; */
   overflow-x:hidden;
 }
 
@@ -2914,6 +2921,7 @@ color: #000;
   width: 100%;
   height: 100%;
   top: -100%;
+  visibility: hidden;
   left: 0;
   right: 0;
   bottom: 0;
@@ -2924,6 +2932,7 @@ color: #000;
 }
 .showScheduleForm{
   top: 0%;
+  visibility: visible;
 }
 #form-div{
   width: 30%;
