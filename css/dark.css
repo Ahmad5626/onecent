@@ -164,7 +164,7 @@ input[type="tel"],
 input[type="date"],
 textarea{
   color: #fff;
-  background: #333;
+  /* background: #333; */
   border:0;
 }
 
